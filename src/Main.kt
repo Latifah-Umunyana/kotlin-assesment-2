@@ -11,9 +11,9 @@ println(calculate(arra))
     println("Q2 using class")
     var nums = arrayOf(3.0,4.0,6.0,9.0,0.0,2.0)
      var z = calculate()
-    println(z.addition(nums))
-    println(z.counting(nums ))
-    println(z.averageOfNumbers(nums))
+ z.addition(nums)
+ z.counting(nums )
+z.averageOfNumbers(nums)
 
 //    Q3.
     volume(20.0)
@@ -50,13 +50,16 @@ var numbersCount= numbers.count()
 class calculate (){
     fun addition(numbers: Array<Double>){
         var numbersAdd = numbers.sum()
+        println(numbersAdd)
     }
 
     fun counting(numbers: Array<Double>){
         var numbersCount= numbers.count()
+        println(numbersCount)
     }
     fun averageOfNumbers(numbers: Array<Double>){
         var averageOfNumbers= numbers.average()
+        println(averageOfNumbers)
     }
 }
 
